@@ -1,12 +1,9 @@
 import random
 
 print("Welcome to number guessing game!")
-
 playing = input("Do you want to play? (yes/no) ")
-
 if playing.lower() != "yes":
     quit()
-
 print("Okay! Let's play :)")
 
 # get the upper bound for the random number
